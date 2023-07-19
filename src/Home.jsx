@@ -17,6 +17,7 @@ import Img1 from "./assets/about.jpeg";
 import Img2 from "./assets/coffee.jpg";
 import Img3 from "./assets/home.jpg";
 import Img4 from "./assets/land.jpeg";
+import Connect from "./assets/connect.mp4";
 
 function Home() {
   useEffect(() => {
