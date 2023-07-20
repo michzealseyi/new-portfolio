@@ -104,7 +104,7 @@ p {
 }
 .btn:hover {
   color: var(--clr-pry-1);
-  background: var(--clr-grn-5);
+  background: var(--clr-pry-10);
 }
 
 /* 
@@ -135,10 +135,9 @@ SECTION
   margin-right: auto;
 }
 .section-title {
+  margin: 0 auto;
   margin-bottom: 4rem;
   text-align: center;
-  margin: 0 auto;
-  width: 85vw;
   max-width: 30rem;
 }
 .bg-grey {
@@ -507,10 +506,10 @@ PROJECTS
       "a b b"
       "a c d";
   }
-  .project-img{
+  .project-img {
     height: 100%;
   }
-  .project{
+  .project {
     height: 100%;
   }
   .project-1 {
@@ -533,17 +532,44 @@ CONNECT
 ===========
 */
 
-.connect{
+.connect {
   min-height: 40vh;
   position: relative;
   padding: 10rem 0 5rem 0;
   margin: 5rem 0;
 }
-.video-container{
+.video-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* z-index: -2; */
+}
+.connect::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-grn-5);
+  opacity: 0.6;
+  /* z-index: -1; */
+}
+.connect {
+  display: grid;
+  place-items: center;
+}
+.video-banner .section-title {
+  margin-bottom: 2rem;
+}
+.video-banner {
+  z-index: 4;
+  /* position: relative; */
+  background: var(--clr-grn-5);
+  padding: 3rem 5rem 12rem 5rem;
+  max-width: 30rem;
+  text-align: center;
 }

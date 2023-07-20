@@ -321,13 +321,28 @@ function Home() {
       <section className="connect">
         <video
           src={Connect}
-          controls
-          autoplay
+          autoPlay
           muted
           loop
           className="video-container"
           poster={Img1}
         ></video>
+        <div className="video-banner">
+          <div className="section-title">
+            <h2>let's get in touch</h2>
+            <div className="underline"></div>
+          </div>
+          <p className="video-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+            facilis eligendi sunt, quas voluptates tenetur voluptatum dolorum.
+            Iste distinctio qui quasi repellat nisi odit recusandae dignissimos
+            fuga velit quod neque, ab quis, rem natus, ipsa quibusdam ad quos.
+            Sequi, tempore!
+          </p>
+          <Link to="/contact" className="btn">
+                contact
+              </Link>
+        </div>
       </section>
       {/* END OF CONNECT */}
     </div>
