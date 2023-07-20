@@ -340,11 +340,69 @@ function Home() {
             Sequi, tempore!
           </p>
           <Link to="/contact" className="btn">
-                contact
-              </Link>
+            contact
+          </Link>
         </div>
       </section>
       {/* END OF CONNECT */}
+      {/* SKILLS */}
+      <section className="section skills">
+        <div className="section-title">
+          <h2>skills</h2>
+          <div className="underline"></div>
+        </div>
+        <div className="section-center skills-center">
+          <article>
+            <h3>front end</h3>
+            <div className="skill">
+              <p>HTML/CSS</p>
+              <div className="skill-container">
+                <div className="skill-value value-50"></div>
+                <p className="skill-text skill-text-50">50%</p>
+              </div>
+            </div>
+            <div className="skill">
+              <p>javascript</p>
+              <div className="skill-container">
+                <div className="skill-value value-70"></div>
+                <p className="skill-text skill-text-70">70%</p>
+              </div>
+            </div>
+            <div className="skill">
+              <p>react js</p>
+              <div className="skill-container">
+                <div className="skill-value value-90"></div>
+                <p className="skill-text skill-text-90">90%</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <h3>back end</h3>
+            <div className="skill">
+              <p>HTML/CSS</p>
+              <div className="skill-container">
+                <div className="skill-value value-50"></div>
+                <p className="skill-text skill-text-50">50%</p>
+              </div>
+            </div>
+            <div className="skill">
+              <p>javascript</p>
+              <div className="skill-container">
+                <div className="skill-value value-50"></div>
+                <p className="skill-text skill-text-50">50%</p>
+              </div>
+            </div>
+            <div className="skill">
+              <p>react js</p>
+              <div className="skill-container">
+                <div className="skill-value value-70"></div>
+                <p className="skill-text skill-text-70">70%</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      {/* END OF SKILLS */}
     </div>
   );
 }

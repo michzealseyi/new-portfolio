@@ -77,7 +77,10 @@ h1 {
   font-size: 2.5rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 1.3rem;
 }
 h4 {
   font-size: 1rem;
@@ -537,6 +540,7 @@ CONNECT
   position: relative;
   padding: 10rem 0 5rem 0;
   margin: 5rem 0;
+  clip-path: polygon(50% 0, 100% 10%, 100% 90%, 50% 100%, 0 90%, 0 10%);
 }
 .video-container {
   position: absolute;
@@ -572,4 +576,72 @@ CONNECT
   padding: 3rem 5rem 12rem 5rem;
   max-width: 30rem;
   text-align: center;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+}
+/* 
+===========
+SKILLS
+===========
+*/
+@media screen and (min-width:768px) {
+  .skills-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+  }
+  
+}
+.skills{
+  background: var(--clr-pry-12);
+}
+.skills h3{
+  margin: 1.5rem 0;
+}
+.skill p{
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  color: var(--clr-grn-3);
+}
+.skill-container{
+  background: var(--clr-white);
+  height: 1.5rem;
+  /* width: 100%; */
+  border-radius: var(--radius);
+  position: relative;
+}
+.skill-value{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--clr-grn-3);
+  height: 100%;
+  width: 50%;
+  border-radius: var(--radius);
+}
+.value-70{
+  width: 70%;
+}
+.value-90{
+  width: 90%;
+}
+.skill-text{
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.skill-text-70{
+  left: 70%;
+}
+.skill-text-90{
+  left: 90%;
 }
