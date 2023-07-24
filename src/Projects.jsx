@@ -8,6 +8,8 @@ import Fbsvg from "./assets/Fbsvg";
 import Twittersvg from "./assets/Twittersvg";
 import Igsvg from "./assets/Igsvg";
 import Linkedinsvg from "./assets/Linkedinsvg";
+import Img2 from "./assets/coffee.jpg";
+import Codesvg from "./assets/Codesvg";
 
 function Projects() {
   useEffect(() => {
@@ -115,6 +117,72 @@ function Projects() {
         </div>
       </aside>
       {/* END OF SIDEBAR */}
+      {/* PROJECT CONTAINER */}
+      <header className="project-hero">
+        <div className="section-title">
+          <h1>my projects</h1>
+          <div className="underline"></div>
+        </div>
+      </header>
+      <section className="section">
+        <div className="section-center project-page-center">
+          <article className="single-project">
+            <div className="project-container">
+              <img src={Img2} alt="" className="project-img" />
+              <span className="project-icon">
+                <Codesvg />
+              </span>
+            </div>
+            <div className="project-details">
+              <h4>project name</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus iusto consequatur, architecto reiciendis velit
+                dolores?
+              </p>
+              <div className="project-footer">
+                <div className="icon">lp</div>
+                <div className="project-code">source code</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      {/* END OF PROJECT CONTAINER */}
+
+      {/* FOOTER */}
+      <footer className="footer">
+        <ul className="social-icons">
+          <a
+            href="https://www.facebook.com/michzealseyi?mibextid=ZbWKwL"
+            className="social-icon"
+          >
+            <Fbsvg />
+          </a>
+          <a
+            href="https://instagram.com/michzealseyi?igshid=ZGUzMzM3NWJiOQ=="
+            className="social-icon"
+          >
+            <Igsvg />
+          </a>
+          <a
+            href="https://twitter.com/michzealseyi?t=lBS9aJAEr5qhxPBH--pNUg&s=08"
+            className="social-icon"
+          >
+            <Twittersvg />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            className="social-icon"
+          >
+            <Linkedinsvg />
+          </a>
+        </ul>
+        <p>
+          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+        </p>
+      </footer>
+      {/* END OF FOOTER */}
     </div>
   );
 }

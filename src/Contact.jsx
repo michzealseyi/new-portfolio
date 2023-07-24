@@ -115,6 +115,54 @@ function Contact() {
         </div>
       </aside>
       {/* END OF SIDEBAR */}
+      {/* CONTACT CONTAINER */}
+      <section className="section single-page">
+        <div className="section-title">
+          <h1>contact</h1>
+          <div className="underline"></div>
+        </div>
+        <div className="section-center page-info">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At qui
+            eaque cumque, sunt natus quam aliquid reiciendis quo labore veniam
+            tempore voluptatem et perferendis pariatur.
+          </p>
+        </div>
+      </section>
+      {/* END OF CONTACT CONTAINER */}
+      {/* FOOTER */}
+      <footer className="footer">
+        <ul className="social-icons">
+          <a
+            href="https://www.facebook.com/michzealseyi?mibextid=ZbWKwL"
+            className="social-icon"
+          >
+            <Fbsvg />
+          </a>
+          <a
+            href="https://instagram.com/michzealseyi?igshid=ZGUzMzM3NWJiOQ=="
+            className="social-icon"
+          >
+            <Igsvg />
+          </a>
+          <a
+            href="https://twitter.com/michzealseyi?t=lBS9aJAEr5qhxPBH--pNUg&s=08"
+            className="social-icon"
+          >
+            <Twittersvg />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            className="social-icon"
+          >
+            <Linkedinsvg />
+          </a>
+        </ul>
+        <p>
+          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+        </p>
+      </footer>
+      {/* END OF FOOTER */}
     </div>
   );
 }

@@ -403,6 +403,198 @@ function Home() {
         </div>
       </section>
       {/* END OF SKILLS */}
+      {/* TITLE */}
+      <section className="section timeline">
+        <div className="section-title">
+          <h2>timeline</h2>
+          <div className="underline"></div>
+        </div>
+        <div className="section-center timeline-center">
+          <article className="timeline-item">
+            <h4>2023</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur quod sint nisi suscipit harum, aliquid ea
+              veniam. Quia, animi?
+            </p>
+            <span className="number">1</span>
+          </article>
+          <article className="timeline-item">
+            <h4>2023</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur quod sint nisi suscipit harum, aliquid ea
+              veniam. Quia, animi?
+            </p>
+            <span className="number">2</span>
+          </article>
+          <article className="timeline-item">
+            <h4>2023</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur quod sint nisi suscipit harum, aliquid ea
+              veniam. Quia, animi?
+            </p>
+            <span className="number">3</span>
+          </article>
+          <article className="timeline-item">
+            <h4>2023</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur quod sint nisi suscipit harum, aliquid ea
+              veniam. Quia, animi?
+            </p>
+            <span className="number">4</span>
+          </article>
+          <article className="timeline-item">
+            <h4>2023</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur quod sint nisi suscipit harum, aliquid ea
+              veniam. Quia, animi?
+            </p>
+            <span className="number">5</span>
+          </article>
+          <article className="timeline-item">
+            <h4>2023</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur quod sint nisi suscipit harum, aliquid ea
+              veniam. Quia, animi?
+            </p>
+            <span className="number">6</span>
+          </article>
+        </div>
+      </section>
+      {/* END OF TITLE */}
+      {/* BLOG */}
+      <section className="section blog">
+        <div className="section-title">
+          <h2>blog</h2>
+          <div className="underline"></div>
+        </div>
+        <div className="section-center blog-center">
+          <div className="card">
+            <div className="card-side card-front">
+              <img src={Img1} alt="" />
+              <div className="card-info">
+                <h4>article title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur deserunt ratione omnis. Autem assumenda itaque
+                  voluptatibus, soluta, a provident maiores nulla consectetur
+                  voluptates, velit nam.
+                </p>
+                <div className="card-footer">
+                  <img src={Myphoto} alt="author img" />
+                  <p>7 min read</p>
+                </div>
+              </div>
+            </div>
+            <div className="card-side card-back">
+              <button className="btn">read more</button>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-side card-front">
+              <img src={Img2} alt="" />
+              <div className="card-info">
+                <h4>article title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur deserunt ratione omnis. Autem assumenda itaque
+                  voluptatibus, soluta, a provident maiores nulla consectetur
+                  voluptates, velit nam.
+                </p>
+                <div className="card-footer">
+                  <img src={Myphoto} alt="author img" />
+                  <p>7 min read</p>
+                </div>
+              </div>
+            </div>
+            <div className="card-side card-back">
+              <button className="btn">read more</button>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-side card-front">
+              <img src={Img3} alt="" />
+              <div className="card-info">
+                <h4>article title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur deserunt ratione omnis. Autem assumenda itaque
+                  voluptatibus, soluta, a provident maiores nulla consectetur
+                  voluptates, velit nam.
+                </p>
+                <div className="card-footer">
+                  <img src={Myphoto} alt="author img" />
+                  <p>7 min read</p>
+                </div>
+              </div>
+            </div>
+            <div className="card-side card-back">
+              <button className="btn">read more</button>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-side card-front">
+              <img src={Img4} alt="" />
+              <div className="card-info">
+                <h4>article title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequuntur deserunt ratione omnis. Autem assumenda itaque
+                  voluptatibus, soluta, a provident maiores nulla consectetur
+                  voluptates, velit nam.
+                </p>
+                <div className="card-footer">
+                  <img src={Myphoto} alt="author img" />
+                  <p>7 min read</p>
+                </div>
+              </div>
+            </div>
+            <div className="card-side card-back">
+              <button className="btn">read more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* END OF BLOG */}
+      {/* FOOTER */}
+      <footer className="footer">
+        <ul className="social-icons">
+          <a
+            href="https://www.facebook.com/michzealseyi?mibextid=ZbWKwL"
+            className="social-icon"
+          >
+            <Fbsvg />
+          </a>
+          <a
+            href="https://instagram.com/michzealseyi?igshid=ZGUzMzM3NWJiOQ=="
+            className="social-icon"
+          >
+            <Igsvg />
+          </a>
+          <a
+            href="https://twitter.com/michzealseyi?t=lBS9aJAEr5qhxPBH--pNUg&s=08"
+            className="social-icon"
+          >
+            <Twittersvg />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            className="social-icon"
+          >
+            <Linkedinsvg />
+          </a>
+        </ul>
+        <p>
+          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+        </p>
+      </footer>
+      {/* END OF FOOTER */}
     </div>
   );
 }

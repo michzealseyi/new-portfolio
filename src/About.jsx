@@ -115,6 +115,57 @@ function About() {
         </div>
       </aside>
       {/* END OF SIDEBAR */}
+      {/* ABOUT CONTAINER */}
+      <section className="section single-page">
+        <div className="section-title">
+          <h1>about me</h1>
+          <div className="underline"></div>
+        </div>
+        <div className="section-center page-info">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            ullam sint perspiciatis expedita nesciunt ipsa, in aliquam. Laborum,
+            aperiam. Ad perferendis tempore vel quibusdam similique tenetur
+            provident nostrum repellendus itaque sint quae exercitationem
+            inventore eos a atque eius id magnam repellat libero, explicabo
+            incidunt at. Sint vero dolores facilis ullam?
+          </p>
+        </div>
+      </section>
+      {/* END OF ABOUT CONTAINER */}
+      {/* FOOTER */}
+      <footer className="footer">
+        <ul className="social-icons">
+          <a
+            href="https://www.facebook.com/michzealseyi?mibextid=ZbWKwL"
+            className="social-icon"
+          >
+            <Fbsvg />
+          </a>
+          <a
+            href="https://instagram.com/michzealseyi?igshid=ZGUzMzM3NWJiOQ=="
+            className="social-icon"
+          >
+            <Igsvg />
+          </a>
+          <a
+            href="https://twitter.com/michzealseyi?t=lBS9aJAEr5qhxPBH--pNUg&s=08"
+            className="social-icon"
+          >
+            <Twittersvg />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            className="social-icon"
+          >
+            <Linkedinsvg />
+          </a>
+        </ul>
+        <p>
+          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+        </p>
+      </footer>
+      {/* END OF FOOTER */}
     </div>
   );
 }
