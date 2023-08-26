@@ -245,6 +245,7 @@ SIDEBAR
   place-items: center;
   transition: var(--transition);
   transform: translateX(-100%);
+  z-index: 6;
 }
 .show-sidebar {
   transform: translateX(0);
@@ -292,6 +293,12 @@ SIDEBAR
 }
 .close-btn:hover {
   fill: rgb(141, 5, 5);
+}
+
+@media screen and (min-width: 900px) {
+  .sidebar {
+    display: none;
+  }
 }
 
 /* 
