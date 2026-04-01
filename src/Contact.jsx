@@ -106,7 +106,7 @@ function Contact() {
               <Twittersvg />
             </a>
             <a
-              href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+              href="https://linkedin.com/in/michzealseyi"
               className="social-icon"
             >
               <Linkedinsvg />
@@ -123,10 +123,16 @@ function Contact() {
         </div>
         <div className="section-center page-info">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At qui
-            eaque cumque, sunt natus quam aliquid reiciendis quo labore veniam
-            tempore voluptatem et perferendis pariatur.
+            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            Feel free to reach out through any of the channels below.
           </p>
+          <div className="contact-info">
+            <p><strong>Location:</strong> Lagos, Nigeria</p>
+            <p><strong>Email:</strong> <a href="mailto:owolabimichzealseyi@gmail.com">owolabimichzealseyi@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+2347065095608">+234 706 509 5608</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/michzealseyi" target="_blank" rel="noopener noreferrer">github.com/michzealseyi</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/michzealseyi" target="_blank" rel="noopener noreferrer">linkedin.com/in/michzealseyi</a></p>
+          </div>
         </div>
       </section>
       {/* END OF CONTACT CONTAINER */}
@@ -152,14 +158,14 @@ function Contact() {
             <Twittersvg />
           </a>
           <a
-            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            href="https://linkedin.com/in/michzealseyi"
             className="social-icon"
           >
             <Linkedinsvg />
           </a>
         </ul>
         <p>
-          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+          &copy; <span>2024</span> owolabi michael. all rights reserved{" "}
         </p>
       </footer>
       {/* END OF FOOTER */}

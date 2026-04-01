@@ -106,7 +106,7 @@ function About() {
               <Twittersvg />
             </a>
             <a
-              href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+              href="https://linkedin.com/in/michzealseyi"
               className="social-icon"
             >
               <Linkedinsvg />
@@ -123,12 +123,26 @@ function About() {
         </div>
         <div className="section-center page-info">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
-            ullam sint perspiciatis expedita nesciunt ipsa, in aliquam. Laborum,
-            aperiam. Ad perferendis tempore vel quibusdam similique tenetur
-            provident nostrum repellendus itaque sint quae exercitationem
-            inventore eos a atque eius id magnam repellat libero, explicabo
-            incidunt at. Sint vero dolores facilis ullam?
+            Senior Front-End Engineer with 3+ years of experience architecting and delivering
+            enterprise-grade financial, e-commerce, and digital content management applications.
+            Proven expertise in micro-frontend architecture (Single-SPA, NX Monorepo with Module
+            Federation), building scalable admin dashboards, and optimizing high-performance web applications.
+          </p>
+          <p>
+            Skilled in React.js, Next.js, Angular, and TypeScript with a strong focus on system design,
+            performance optimization, and cross-functional collaboration. I have successfully delivered
+            7+ independent micro-frontend modules for banking operations including beneficiaries management,
+            transfers, workflows, liquidity management, approval transfers, vendor integration, foreign transfers,
+            and comprehensive reporting systems.
+          </p>
+          <p>
+            My technical toolkit includes: React.js, Next.js, Angular, Single-SPA, JavaScript (ES6+), TypeScript,
+            HTML5, CSS3, SCSS, NX Monorepo, Module Federation, Tauri, REST API, GraphQL, Tailwind CSS, Jest,
+            React Testing Library, Git, and Agile/Scrum methodologies.
+          </p>
+          <p>
+            I am passionate about building scalable solutions, implementing security best practices for enterprise
+            applications, and leveraging AI-assisted development to optimize code quality and development workflows.
           </p>
         </div>
       </section>
@@ -155,14 +169,14 @@ function About() {
             <Twittersvg />
           </a>
           <a
-            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            href="https://linkedin.com/in/michzealseyi"
             className="social-icon"
           >
             <Linkedinsvg />
           </a>
         </ul>
         <p>
-          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+          &copy; <span>2024</span> owolabi michael. all rights reserved{" "}
         </p>
       </footer>
       {/* END OF FOOTER */}

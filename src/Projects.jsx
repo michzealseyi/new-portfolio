@@ -108,7 +108,7 @@ function Projects() {
               <Twittersvg />
             </a>
             <a
-              href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+              href="https://linkedin.com/in/michzealseyi"
               className="social-icon"
             >
               <Linkedinsvg />
@@ -128,21 +128,83 @@ function Projects() {
         <div className="section-center project-page-center">
           <article className="single-project">
             <div className="project-container">
-              <img src={Img2} alt="" className="project-img" />
+              <img src={Img2} alt="Hymn Management Platform" className="project-img" />
               <span className="project-icon">
                 <Codesvg />
               </span>
             </div>
             <div className="project-details">
-              <h4>project name</h4>
+              <h4>Hymn Management Platform</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus iusto consequatur, architecto reiciendis velit
-                dolores?
+                Comprehensive digital hymn management system for religious organizations, featuring hymn renditions,
+                musical tones, vocal parts, lyrics, and manuscripts. Built with NX Monorepo architecture using React and Next.js.
+                Features include advanced search, multi-organization support, offline-first capabilities, and analytics dashboards.
               </p>
               <div className="project-footer">
-                <div className="icon">lp</div>
-                <div className="project-code">source code</div>
+                <span className="project-tech">React • Next.js • NX Monorepo • GraphQL</span>
+                <a href="https://hymnal.techcitadel.tech/" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article className="single-project">
+            <div className="project-container">
+              <img src={Img2} alt="Naiya E-Commerce" className="project-img" />
+              <span className="project-icon">
+                <Codesvg />
+              </span>
+            </div>
+            <div className="project-details">
+              <h4>Naiya E-Commerce Platform</h4>
+              <p>
+                Commercial e-commerce platform developed with full product catalog management, shopping cart functionality,
+                secure checkout workflows, and integrated payment processing. Features user authentication, order management,
+                and inventory tracking systems.
+              </p>
+              <div className="project-footer">
+                <span className="project-tech">Angular • TypeScript • REST API</span>
+                <a href="https://naiya.ng/" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article className="single-project">
+            <div className="project-container">
+              <img src={Img2} alt="Banking Admin Dashboard" className="project-img" />
+              <span className="project-icon">
+                <Codesvg />
+              </span>
+            </div>
+            <div className="project-details">
+              <h4>Banking Admin Dashboard</h4>
+              <p>
+                Enterprise financial institution admin platform managing critical banking operations including transaction
+                limitations, user settings, vendor configurations, and multi-level approval workflows. Built 7+ independent
+                micro-frontend modules using Single-SPA architecture, serving 1000+ concurrent users.
+              </p>
+              <div className="project-footer">
+                <span className="project-tech">React • Single-SPA • REST API • Jest</span>
+                <span className="project-code">Enterprise Project</span>
+              </div>
+            </div>
+          </article>
+
+          <article className="single-project">
+            <div className="project-container">
+              <img src={Img2} alt="Personal Portfolio" className="project-img" />
+              <span className="project-icon">
+                <Codesvg />
+              </span>
+            </div>
+            <div className="project-details">
+              <h4>Personal Portfolio Website</h4>
+              <p>
+                Showcase of technical skills and project work using modern web technologies including React and Vite.
+                Features responsive design, smooth animations, and optimized performance for a seamless user experience.
+              </p>
+              <div className="project-footer">
+                <span className="project-tech">React • Vite • CSS3 • Responsive</span>
+                <a href="https://michzealseyi-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
               </div>
             </div>
           </article>
@@ -172,14 +234,14 @@ function Projects() {
             <Twittersvg />
           </a>
           <a
-            href="https://www.linkedin.com/in/mr-michael-owolabi-321775117"
+            href="https://linkedin.com/in/michzealseyi"
             className="social-icon"
           >
             <Linkedinsvg />
           </a>
         </ul>
         <p>
-          &copy; <span>2023</span> owolabi michael. all rights reserved{" "}
+          &copy; <span>2024</span> owolabi michael. all rights reserved{" "}
         </p>
       </footer>
       {/* END OF FOOTER */}
