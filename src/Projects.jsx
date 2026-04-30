@@ -220,7 +220,7 @@ function Projects() {
               <h4>Sterling Pro</h4>
               <p>
                 Built a scalable financial platform using a Single-SPA micro frontend architecture, enabling independent
-                deployment and seamless integration of multiple applications. Developed within an NX monorepo, leveraging
+                deployment and seamless integration of multiple applications. Leveraging
                 modern frontend technologies to ensure modularity, maintainability, and high performance across the system.
               </p>
               <div className="project-footer">
