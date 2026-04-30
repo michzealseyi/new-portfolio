@@ -208,6 +208,27 @@ function Projects() {
               </div>
             </div>
           </article>
+
+          <article className="single-project">
+            <div className="project-container">
+              <img src={Img2} alt="Sterling Pro" className="project-img" />
+              <span className="project-icon">
+                <Codesvg />
+              </span>
+            </div>
+            <div className="project-details">
+              <h4>Sterling Pro</h4>
+              <p>
+                Built a scalable financial platform using a Single-SPA micro frontend architecture, enabling independent
+                deployment and seamless integration of multiple applications. Developed within an NX monorepo, leveraging
+                modern frontend technologies to ensure modularity, maintainability, and high performance across the system.
+              </p>
+              <div className="project-footer">
+                <span className="project-tech">React • Single-SPA • NX Monorepo • TypeScript</span>
+                <a href="https://newsterlingpro.sterling.ng/home" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
       {/* END OF PROJECT CONTAINER */}
