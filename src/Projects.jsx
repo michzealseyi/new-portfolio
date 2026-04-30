@@ -204,7 +204,7 @@ function Projects() {
               </p>
               <div className="project-footer">
                 <span className="project-tech">React • Vite • CSS3 • Responsive</span>
-                <a href="https://michzealseyi-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
+                <a href="https://michzealseyi-portfolio2.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
               </div>
             </div>
           </article>
