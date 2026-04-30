@@ -168,7 +168,7 @@ function Projects() {
             </div>
           </article>
 
-          <article className="single-project">
+          {/* <article className="single-project">
             <div className="project-container">
               <img src={Img2} alt="Banking Admin Dashboard" className="project-img" />
               <span className="project-icon">
@@ -178,7 +178,7 @@ function Projects() {
             <div className="project-details">
               <h4>Banking Admin Dashboard</h4>
               <p>
-                Enterprise financial institution admin platform managing critical banking operations including transaction
+                Enterprise financial institution platform managing critical banking operations including transaction
                 limitations, user settings, vendor configurations, and multi-level approval workflows. Built 7+ independent
                 micro-frontend modules using Single-SPA architecture, serving 1000+ concurrent users.
               </p>
@@ -187,7 +187,7 @@ function Projects() {
                 <span className="project-code">Enterprise Project</span>
               </div>
             </div>
-          </article>
+          </article> */}
 
           <article className="single-project">
             <div className="project-container">
@@ -219,11 +219,12 @@ function Projects() {
             <div className="project-details">
               <h4>Sterling Pro</h4>
               <p>
-                Built a scalable financial platform using a Single-SPA micro frontend architecture, enabling independent
-                deployment and seamless integration of multiple applications. Leveraging modern frontend technologies to ensure modularity, maintainability, and high performance across the system.
+               Enterprise financial institution platform managing critical banking operations including transaction
+                limitations, user settings, vendor configurations, and multi-level approval workflows. Built 7+ independent
+                micro-frontend modules using Single-SPA architecture, serving 1000+ concurrent users.
               </p>
               <div className="project-footer">
-                <span className="project-tech">React • Single-SPA • NX Monorepo • TypeScript</span>
+                <span className="project-tech">Angular • Single-SPA • TypeScript</span>
                 <a href="https://newsterlingpro.sterling.ng/home" target="_blank" rel="noopener noreferrer" className="project-code">Live Demo</a>
               </div>
             </div>
